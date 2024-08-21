@@ -31,8 +31,8 @@ function checkUpgrades() {
 
 // Køb assistent opgradering
 assistantUpgradeBtn.addEventListener('click', () => {
-    if (money >= 10) {
-        money -= 10;
+    if (money >= 100) {
+        money -= 100;
         moneyPerSecond += 1;
         updateMoneyDisplay();
         checkUpgrades();
